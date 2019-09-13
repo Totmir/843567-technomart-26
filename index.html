@@ -9,22 +9,44 @@
 <body>
   <header class="header">
     <div class="header__item-top">
-      <a><img src="#" alt="logo_technomart"></a>
+      <a>
+        <h2>Техномарт</h2>
+      </a>
       <input type="text" name="Поиск">
-      <button>Закладки: 0</button>
-      <button>Корзина: 0</button>
-      <button>Оформить заказ</button>
+      <ul class="header__user-menu">
+        <li class="user-menu__item button">
+          <img src="/technomart/img/icon-bookmark.png" alt="icon-bookmark">
+          <button>Закладки: 0</button>
+        </li>
+        <li class="user-menu__item button">
+          <img src="img/cart-icon.png" alt="cart-icon">
+          <button>Корзина: 0</button>
+        </li>
+        <li class="button">
+          <button>Оформить заказ</button>
+        </li>
+      </ul>
     </div>
     <div class="header__outer">
       <div class="header__item-middle">
         <p>Интернет-магазин строительных инструментов и материалов для ремонта</p>
         <div class="item-middle__element">
-          <button>+7 (812) 555-05-55</button>
+          <div>
+              <img src="img/icon-phone.png" alt="icon-phone">
+              <button>+7 (812) 555-05-55</button>
+          </div>
           <address>г. Санкт-Петербург, ул. Большая конюшенная, д. 19/8</address>
         </div>
         <div class="item-middle__element">
-          <button>Войти</button>
-          <button>Регистрация</button>
+          <ul>
+            <li class="button">
+              <img src="img/icon-login.png" alt="icon-login">
+              <button>Войти</button>
+            </li>
+            <li class="button">
+              <button>Регистрация</button>
+            </li>
+          </ul>
         </div>
       </div>
       <div class="header__item-bottom">
@@ -49,7 +71,7 @@
               <p>Материалы</p>
               <p>На любой вкус</p>
             </div>
-            <img src="#" alt="paint">
+            <img src="img/icon-1.svg" alt="paint">
           </a>
         </li>
         <li class="catalog__item">
@@ -58,7 +80,7 @@
               <p>Инструмент</p>
               <p>На все случаи жизни</p>
             </div>
-            <img src="#" alt="drill">
+            <img src="img/icon-2.svg" alt="drill">
           </a>
         </li>
         <li class="catalog__item">
@@ -67,7 +89,7 @@
               <p>Техника</p>
               <p>Для стройки</p>
             </div>
-            <img src="#" alt="tractor">
+            <img src="img/icon-3.svg" alt="tractor">
           </a>
         </li>
         <li class="catalog__item catalog__item-slider">
@@ -75,10 +97,10 @@
             <h2>Дрели</h2>
             <p>Соседям на радость!</p>
           </div>
-          <img src="#" alt="worker">
+          <img src="img/Layer 99.png" alt="worker">
           <div>
-            <button><img src="#" alt="arrow-left"></button>
-            <button><img src="#" alt="arrow-right"></button>
+            <button><img src="img/icon-left.svg" alt="arrow-left"></button>
+            <button><img src="img/icon-right.svg" alt="arrow-right"></button>
           </div>
           <div>
             <a href="catalog.html">Открыть каталог</a>
@@ -94,7 +116,7 @@
               <p>Скидка 50%</p>
               <p>на 350 товаров</p>
             </div>
-            <img src="#" alt="cart">
+            <img src="img/icon-4.svg" alt="cart">
           </a>
         </li>
         <li class="catalog__item">
@@ -103,7 +125,7 @@
               <p>Доставка</p>
               <p>Бесплатно</p>
             </div>
-            <img src="#" alt="truck">
+            <img src="img/icon-5.svg" alt="truck">
           </a>
         </li>
       </ul>
@@ -116,25 +138,25 @@
         </div>
         <ul class="popular-bottom">
           <li class="popular__item">
-            <img src="#" alt="Bosh_BFG_9000">
+            <img src="img/Perforator_1.png" alt="Bosh_BFG_9000">
             <p>Перфоратор Bosh BFG 9000</p>
             <p class="paragraph old-price">32500 р.</p>
             <p class="paragraph current-price">25500 р.</p>
           </li>
           <li class="popular__item">
-            <img src="#" alt="Bosh_BFG_3000">
+            <img src="img/Perforator_2.png" alt="Bosh_BFG_3000">
             <p>Перфоратор Bosh BFG 3000</p>
             <p class="paragraph old-price">25500 р.</p>
             <p class="paragraph current-price">15500 р.</p>
           </li>
           <li class="popular__item">
-            <img src="#" alt="Bosh_BFG_6000">
+            <img src="img/Perforator_3.png" alt="Bosh_BFG_6000">
             <p>Перфоратор Bosh BFG 6000</p>
             <p class="paragraph old-price">30500 р.</p>
             <p class="paragraph current-price">25500 р.</p>
           </li>
           <li class="popular__item popular__item--new">
-            <img src="#" alt="Bosh_BFG_2000">
+            <img src="img/Perforator_4.png" alt="Bosh_BFG_2000">
             <p>Перфоратор Bosh BFG 2000</p>
             <p class="paragraph old-price"></p>
             <p class="paragraph current-price">12500 р.</p>
@@ -148,28 +170,28 @@
         </div>
         <ul class="popular-bottom">
           <li class="popular__item">
-            <img src="#" alt="Bosh">
+            <img src="img/bosch.png" alt="Bosh">
           </li>
           <li class="popular__item">
-            <img src="#" alt="Makita">
+            <img src="img/Makita.png" alt="Makita">
           </li>
           <li class="popular__item">
-            <img src="#" alt="DeWALT">
+            <img src="img/DeWALT.png" alt="DeWALT">
           </li>
           <li class="popular__item">
-            <img src="#" alt="Интерскол">
+            <img src="img/Интерскол.png" alt="Интерскол">
           </li>
           <li class="popular__item">
-            <img src="#" alt="HITACHI">
+            <img src="img/Hitachi.png" alt="HITACHI">
           </li>
           <li class="popular__item">
-            <img src="#" alt="LG">
+            <img src="img/LG.png" alt="LG">
           </li>
           <li class="popular__item">
-            <img src="#" alt="AEG">
+            <img src="img/AEG.png" alt="AEG">
           </li>
           <li class="popular__item">
-            <img src="#" alt="metabo">
+            <img src="img/Metabo.png" alt="metabo">
           </li>
         </ul>
       </div>
@@ -187,42 +209,51 @@
         <div id="Delivery" class="tabcontent">
           <div>
             <h2>Доставка</h2>
-            <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
+            <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо
+              заработаем, поднимая его на ваш этаж!</p>
           </div>
-          <img src="#" alt="truck">
+          <img src="img/Layer 131.png" alt="truck">
         </div>
         <div id="Guarantee" class="tabcontent">
           <div>
             <h2>Гарантия</h2>
-            <p>Нет гарантий. Всё на вас.</p>
+            <p>Если купленный у нас товар поломается или заискрит,<br> а так же в случае пожара, спровоцированного его возгоранием,<br> вы всегда можете быть уверены в нашей гарантии. Мы обменяем<br>сгоревший товар на новый<br>Дом уж восстановите как-нибудь сами.</p>
           </div>
-          <img src="#" alt="#">
+          <img src="img/Layer 130.png" alt="Guarantee">
         </div>
         <div id="Credit" class="tabcontent">
           <div>
-            <h2>Доставка</h2>
-            <p>Если вы ещё не заработали, то можете усугубить ситуацию.</p>
+            <h2>Кредит</h2>
+            <p>Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
           </div>
-          <img src="#" alt="#">
+          <img src="img/Layer 119.png" alt="Credit">
         </div>
       </div>
     </section>
     <section>
       <article class="about">
         <h3>Компания &laquo;Техномарт&raquo;</h3>
-        <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
-        <p>Мы сможем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями.</p>
+        <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит
+          равнодушными любителей сэкономить на гастарбайтерах.</p>
+        <p>Мы сможем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными
+          компаниями.</p>
         <ul>
-          <li><h3>Деловые линии</h3></li>
-          <li><h3>Автотрейдинг</h3></li>
-          <li><h3>ЖелДорЭкспедиция</h3></li>
+          <li>
+            <h3>Деловые линии</h3>
+          </li>
+          <li>
+            <h3>Автотрейдинг</h3>
+          </li>
+          <li>
+            <h3>ЖелДорЭкспедиция</h3>
+          </li>
         </ul>
         <button>Подробнее о компании</button>
       </article>
       <article class="contacts">
         <h3>Контакты</h3>
         <p>Вы можете забрать товар сами, заехав в наш офис</p>
-        <img src="#" alt="map">
+        <img src="img/Layer 5.png" alt="map">
         <button>Заблудились? Напишите нам!</button>
       </article>
     </section>
@@ -255,10 +286,10 @@
       <div class="Copyright">
         <p class="">2010-2019 Компания &laquo;Техномарт&raquo;<br>Все права защищены</p>
       </div>
-      <ul class="social">
-        <li class="social__item"><a href="#"><img src="#" alt="vk"></a></li>
-        <li class="social__item"><a href="#"><img src="#" alt="facebook"></a></li>
-        <li class="social__item"><a href="#"><img src="#" alt="instagram"></a></li>
+      <ul class="socials">
+        <li class="social__item"><a href="#"><img src="img/vk-icon.png" alt="vk"></a></li>
+        <li class="social__item"><a href="#"><img src="img/fb-icon.png" alt="facebook"></a></li>
+        <li class="social__item"><a href="#"><img src="img/insta-icon.png" alt="instagram"></a></li>
       </ul>
       <div>
         <div>
