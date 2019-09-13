@@ -12,15 +12,17 @@
       <a>
         <h2>Техномарт</h2>
       </a>
-      <input type="text" name="Поиск">
+      <div>
+        <img src="img/icon-search.svg" alt="icon-search" width="17" height="17">
+        <input type="text" name="Поиск"></div>
       <ul class="header__user-menu">
         <li class="user-menu__item button">
-          <img src="/technomart/img/icon-bookmark.png" alt="icon-bookmark">
+          <img src="/technomart/img/icon-bookmark.svg" alt="icon-bookmark" width="14" height="16">
           <button>Закладки: 0</button>
         </li>
         <li class="user-menu__item button">
-          <img src="img/cart-icon.png" alt="cart-icon">
-          <button>Корзина: 10</button>
+          <img src="img/cart-icon.svg" alt="cart-icon" width="15" height="15">
+          <button>Корзина: 0</button>
         </li>
         <li class="button">
           <button>Оформить заказ</button>
@@ -32,54 +34,62 @@
         <p>Интернет-магазин<br>строительных инструментов<br> и материалов для ремонта</p>
         <div class="item-middle__element">
           <button>
-            <img src="img/icon-phone.png" alt="icon-phone">
+            <img src="img/icon-phone.svg" alt="icon-phone" width="19" height="19">
             <span>+7 (812) 555-05-55</span>
           </button>
           <address>г. Санкт-Петербург, ул. Большая конюшенная, д. 19/8</address>
         </div>
         <div class="item-middle__element">
-          <button><img src="img/icon-user.png" alt="icon-user"><span>Равшан Джамшутович</span></button>
+          <button><img src="img/icon-user.svg" alt="icon-user" width="20" height="18"><span>Равшан
+              Джамшутович</span></button>
           <div>
             <button>Мои заказы</button>
-            <img src="img/dot-icon.png" alt="dot-icon">
+            <img src="img/dot-icon." alt="dot-icon">
             <button>Личный кабинет</button>
           </div>
         </div>
+        <div class="header__item-bottom">
+          <nav>
+            <ul class="header__menu">
+              <li class="header__menu-item">
+                <a href="index.html">Главная</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#">Компания</a>
+              </li>
+              <li class="header__menu-item">
+                <a">Каталог</a>
+              </li>
+              <li class="header__menu-item"><a href="#">Новости</a></li>
+              <li class="header__menu-item"><a href="#">Спецпредложения</a></li>
+              <li class="header__menu-item"><a href="#">Доставка</a></li>
+              <li class="header__menu-item"><a href="#">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
-      <div class="header__item-bottom">
-        <nav>
-          <ul class="header__menu">
-            <li class="header__menu-item">
-              <a href="index.html">Главная</a>
-            </li>
-            <li class="header__menu-item">
-              <a href="#">Компания</a>
-            </li>
-            <li class="header__menu-item">
-              <a">Каталог</a>
-            </li>
-            <li class="header__menu-item"><a href="#">Новости</a></li>
-            <li class="header__menu-item"><a href="#">Спецпредложения</a></li>
-            <li class="header__menu-item"><a href="#">Доставка</a></li>
-            <li class="header__menu-item"><a href="#">Контакты</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
   </header>
   <main class="main">
     <section class="breadcrumps">
-      <a href="index.html"><img src="#" alt="home"></a>
-      <img src="img/icon-home.png" alt="home">
+      <a href="index.html"><img src="img/icon-home.svg" alt="home" width="14" height="12"></a>
       <ul>
         <li class="breadcrumps__item">
-          <h3>каталог</h3>
+          <img src="img/icon-right-small.svg" alt="arrow_right" width="8" height="12">
+          <a>
+            <h3>каталог</h3>
+          </a>
         </li>
         <li class="breadcrumps__item">
-          <h3>инструмент</h3>
+          <img src="img/icon-right-small.svg" alt="arrow_right" width="8" height="12">
+          <a href="#">
+            <h3>инструмент</h3>
+          </a>
         </li>
         <li class="breadcrumps__item">
-          <h3>перфораторы</h3>
+          <img src="img/icon-right-small.svg" alt="arrow_right" width="8" height="12">
+          <a href="#">
+            <h3>перфораторы</h3>
+          </a>
         </li>
       </ul>
     </section>
@@ -116,8 +126,8 @@
             <li><a href="#">По типу</a></li>
             <li><a href="#">По функционалу</a></li>
             <li>
-              <a href="#"><img src="img/icon-up-dir.png" alt="arrow_up"></a>
-              <a href="#"><img src="img/icon-down-dir.png" alt="arrow_down"></a>
+              <a href="#"><img src="img/icon-up-dir.svg" alt="arrow_up" width="11" height="10"></a>
+              <a href="#"><img src="img/icon-down-dir.svg" alt="arrow_down" width="11" height="10"></a>
             </li>
           </ul>
           <ul>
@@ -134,7 +144,11 @@
               <p class="paragraph current-price">25500 р.</p>
             </li>
             <li>
-              <img src="img/Perforator_4.png" alt="Bosh_BFG_2000">
+              <p>new</p>
+              <div>
+                <button>Купить</button>
+                <button>В закладки</button>
+              </div>
               <p>Перфоратор Bosh BFG 2000</p>
               <p class="paragraph old-price"></p>
               <p class="paragraph current-price">12500 р.</p>
@@ -146,6 +160,7 @@
               <p class="paragraph current-price">15500 р.</p>
             </li>
             <li>
+              <p>new</p>
               <img src="img/Perforator_3.png" alt="Bosh_BFG_6000">
               <p>Перфоратор Bosh BFG 6000</p>
               <p class="paragraph old-price">30500 р.</p>

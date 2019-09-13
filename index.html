@@ -12,15 +12,17 @@
       <a>
         <h2>Техномарт</h2>
       </a>
-      <input type="text" name="Поиск">
+      <div>
+        <img src="img/icon-search.svg" alt="icon-search" width="17" height="17">
+        <input type="text" name="Поиск"></div>
       <ul class="header__user-menu">
         <li class="user-menu__item button">
-          <img src="/technomart/img/icon-bookmark.png" alt="icon-bookmark">
+          <img src="/technomart/img/icon-bookmark.svg" alt="icon-bookmark" width="14" height="16">
           <button>Закладки: 0</button>
         </li>
         <li class="user-menu__item button">
-          <img src="img/cart-icon.png" alt="cart-icon">
-          <button>Корзина: 0</button>
+          <img src="img/cart-icon.svg" alt="cart-icon" width="15" height="15">
+          <button>Корзина: 10</button>
         </li>
         <li class="button">
           <button>Оформить заказ</button>
@@ -29,36 +31,42 @@
     </div>
     <div class="header__outer">
       <div class="header__item-middle">
-        <p>Интернет-магазин строительных инструментов и материалов для ремонта</p>
+        <p>Интернет-магазин<br>строительных инструментов<br> и материалов для ремонта</p>
         <div class="item-middle__element">
-          <div>
-              <img src="img/icon-phone.png" alt="icon-phone">
-              <button>+7 (812) 555-05-55</button>
-          </div>
+          <button>
+            <img src="img/icon-phone.svg" alt="icon-phone" width="19" height="19">
+            <span>+7 (812) 555-05-55</span>
+          </button>
           <address>г. Санкт-Петербург, ул. Большая конюшенная, д. 19/8</address>
         </div>
         <div class="item-middle__element">
-          <ul>
-            <li class="button">
-              <img src="img/icon-login.png" alt="icon-login">
-              <button>Войти</button>
-            </li>
-            <li class="button">
-              <button>Регистрация</button>
-            </li>
-          </ul>
+          <button>
+            <img src="img/icon-login.svg" alt="icon-login" width="20" height="17">
+            <span>Войти</span>
+          </button>
+          <button>
+            <span>Регистрация</span>
+          </button>
         </div>
       </div>
       <div class="header__item-bottom">
-        <ul class="header__menu">
-          <li class="header__menu-item"><a>Главная</a></li>
-          <li class="header__menu-item"><a href="#">Компания</a></li>
-          <li class="header__menu-item"><a href="catalog.html">Каталог</a></li>
-          <li class="header__menu-item"><a href="#">Новости</a></li>
-          <li class="header__menu-item"><a href="#">Спецпредложения</a></li>
-          <li class="header__menu-item"><a href="#">Доставка</a></li>
-          <li class="header__menu-item"><a href="#">Контакты</a></li>
-        </ul>
+        <nav>
+          <ul class="header__menu">
+            <li class="header__menu-item">
+              <a href="index.html">Главная</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#">Компания</a>
+            </li>
+            <li class="header__menu-item">
+              <a">Каталог</a>
+            </li>
+            <li class="header__menu-item"><a href="#">Новости</a></li>
+            <li class="header__menu-item"><a href="#">Спецпредложения</a></li>
+            <li class="header__menu-item"><a href="#">Доставка</a></li>
+            <li class="header__menu-item"><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
       </div>
     </div>
   </header>
@@ -71,7 +79,7 @@
               <p>Материалы</p>
               <p>На любой вкус</p>
             </div>
-            <img src="img/icon-1.svg" alt="paint">
+            <img src="img/icon-1.svg" alt="paint" width="44" height="65">
           </a>
         </li>
         <li class="catalog__item">
@@ -80,7 +88,7 @@
               <p>Инструмент</p>
               <p>На все случаи жизни</p>
             </div>
-            <img src="img/icon-2.svg" alt="drill">
+            <img src="img/icon-2.svg" alt="drill" width="75" height="61">
           </a>
         </li>
         <li class="catalog__item">
@@ -89,7 +97,7 @@
               <p>Техника</p>
               <p>Для стройки</p>
             </div>
-            <img src="img/icon-3.svg" alt="tractor">
+            <img src="img/icon-3.svg" alt="tractor" width="78" height="62">
           </a>
         </li>
         <li class="catalog__item catalog__item-slider">
@@ -97,10 +105,24 @@
             <h2>Дрели</h2>
             <p>Соседям на радость!</p>
           </div>
-          <img src="img/Layer 99.png" alt="worker">
           <div>
-            <button><img src="img/icon-left.svg" alt="arrow-left"></button>
-            <button><img src="img/icon-right.svg" alt="arrow-right"></button>
+            <button><img src="img/icon-left.svg" alt="arrow-left" width="22" height="40"></button>
+            <button><img src="img/icon-right.svg" alt="arrow-right" width="22" height="40"></button>
+          </div>
+          <div>
+            <a href="catalog.html">Открыть каталог</a>
+            <div>
+              <input type="radio" name="slider">
+              <input type="radio" name="slider">
+            </div>
+          </div>
+          <div class="catalog__item-slider-wrapper hidden">
+            <h2>Перфораторы</h2>
+            <p>Настоящие мужские игрушки!</p>
+          </div>
+          <div>
+            <button><img src="img/icon-left.svg" alt="arrow-left" width="22" height="40"></button>
+            <button><img src="img/icon-right.svg" alt="arrow-right" width="22" height="40"></button>
           </div>
           <div>
             <a href="catalog.html">Открыть каталог</a>
@@ -116,7 +138,7 @@
               <p>Скидка 50%</p>
               <p>на 350 товаров</p>
             </div>
-            <img src="img/icon-4.svg" alt="cart">
+            <img src="img/icon-4.svg" alt="cart" width="59" height="72">
           </a>
         </li>
         <li class="catalog__item">
@@ -125,7 +147,7 @@
               <p>Доставка</p>
               <p>Бесплатно</p>
             </div>
-            <img src="img/icon-5.svg" alt="truck">
+            <img src="img/icon-5.svg" alt="truck" width="78" height="63">
           </a>
         </li>
       </ul>
@@ -138,25 +160,25 @@
         </div>
         <ul class="popular-bottom">
           <li class="popular__item">
-            <img src="img/Perforator_1.png" alt="Bosh_BFG_9000">
+            <img src="img/Perforator_1.png" alt="Bosh_BFG_9000" width="218" height="170">
             <p>Перфоратор Bosh BFG 9000</p>
             <p class="paragraph old-price">32500 р.</p>
             <p class="paragraph current-price">25500 р.</p>
           </li>
           <li class="popular__item">
-            <img src="img/Perforator_2.png" alt="Bosh_BFG_3000">
+            <img src="img/Perforator_2.png" alt="Bosh_BFG_3000" width="218" height="170">
             <p>Перфоратор Bosh BFG 3000</p>
             <p class="paragraph old-price">25500 р.</p>
             <p class="paragraph current-price">15500 р.</p>
           </li>
           <li class="popular__item">
-            <img src="img/Perforator_3.png" alt="Bosh_BFG_6000">
+            <img src="img/Perforator_3.png" alt="Bosh_BFG_6000" width="218" height="170">
             <p>Перфоратор Bosh BFG 6000</p>
             <p class="paragraph old-price">30500 р.</p>
             <p class="paragraph current-price">25500 р.</p>
           </li>
           <li class="popular__item popular__item--new">
-            <img src="img/Perforator_4.png" alt="Bosh_BFG_2000">
+            <img src="img/Perforator_4.png" alt="Bosh_BFG_2000" width="218" height="170">
             <p>Перфоратор Bosh BFG 2000</p>
             <p class="paragraph old-price"></p>
             <p class="paragraph current-price">12500 р.</p>
@@ -170,28 +192,28 @@
         </div>
         <ul class="popular-bottom">
           <li class="popular__item">
-            <img src="img/bosch.png" alt="Bosh">
+            <img src="img/bosch.png" alt="Bosh" width="126" height="37">
           </li>
           <li class="popular__item">
-            <img src="img/Makita.png" alt="Makita">
+            <img src="img/Makita.png" alt="Makita" width="123" height="40">
           </li>
           <li class="popular__item">
-            <img src="img/DeWALT.png" alt="DeWALT">
+            <img src="img/DeWALT.png" alt="DeWALT" width="146" height="44">
           </li>
           <li class="popular__item">
-            <img src="img/Интерскол.png" alt="Интерскол">
+            <img src="img/Интерскол.png" alt="Интерскол" width="200" height="88">
           </li>
           <li class="popular__item">
-            <img src="img/Hitachi.png" alt="HITACHI">
+            <img src="img/Hitachi.png" alt="HITACHI" width="169" height="31">
           </li>
           <li class="popular__item">
-            <img src="img/LG.png" alt="LG">
+            <img src="img/LG.png" alt="LG" width="121" height="73">
           </li>
           <li class="popular__item">
-            <img src="img/AEG.png" alt="AEG">
+            <img src="img/AEG.png" alt="AEG" width="151" height="96">
           </li>
           <li class="popular__item">
-            <img src="img/Metabo.png" alt="metabo">
+            <img src="img/Metabo.png" alt="metabo" width="204" height="69">
           </li>
         </ul>
       </div>
@@ -212,21 +234,23 @@
             <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо
               заработаем, поднимая его на ваш этаж!</p>
           </div>
-          <img src="img/Layer 131.png" alt="truck">
+          <img src="img/Layer 131.png" alt="truck" width="468" height="261">
         </div>
         <div id="Guarantee" class="tabcontent">
           <div>
             <h2>Гарантия</h2>
-            <p>Если купленный у нас товар поломается или заискрит,<br> а так же в случае пожара, спровоцированного его возгоранием,<br> вы всегда можете быть уверены в нашей гарантии. Мы обменяем<br>сгоревший товар на новый<br>Дом уж восстановите как-нибудь сами.</p>
+            <p>Если купленный у нас товар поломается или заискрит,<br> а так же в случае пожара, спровоцированного его
+              возгоранием,<br> вы всегда можете быть уверены в нашей гарантии. Мы обменяем<br>сгоревший товар на
+              новый<br>Дом уж восстановите как-нибудь сами.</p>
           </div>
-          <img src="img/Layer 130.png" alt="Guarantee">
+          <img src="img/Layer 130.png" alt="Guarantee" width="389" height="283">
         </div>
         <div id="Credit" class="tabcontent">
           <div>
             <h2>Кредит</h2>
             <p>Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
           </div>
-          <img src="img/Layer 119.png" alt="Credit">
+          <img src="img/Layer 119.png" alt="Credit" width="465" height="285">
         </div>
       </div>
     </section>
@@ -253,7 +277,7 @@
       <article class="contacts">
         <h3>Контакты</h3>
         <p>Вы можете забрать товар сами, заехав в наш офис</p>
-        <img src="img/Layer 5.png" alt="map">
+        <img src="img/Layer 5.png" alt="map" width="300" height="158">
         <button>Заблудились? Напишите нам!</button>
       </article>
     </section>
@@ -303,6 +327,26 @@
       </div>
     </div>
   </footer>
+  <div class="popup hidden">
+    <div class="popup__inner">
+      <button>
+        <img src="img/form-close.svg" alt="close" width="21" height="21">
+      </button>
+      <form action="" method="GET">
+        <fieldset>
+          <label for="GET-name">Ваше имя:</label>
+          <input type="text" name="name" id="GET-name">
+          <label for="GET-email">Ваш e-mail</label>
+          <input type="text" name="email" id="GET-email">
+        </fieldset>
+        <fieldset>
+          <label for="GET-comment">Текст письма</label>
+          <input type="text" name="comment" id="GET-comment">
+        </fieldset>
+        <button type="submit">Подтвердить</button>
+      </form>
+    </div>
+  </div>
 </body>
 
 </html>
