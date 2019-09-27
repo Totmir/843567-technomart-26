@@ -16,7 +16,8 @@
           <li class="search">
             <form method="post" action="https://echo.htmlacademy.ru" name="searchform" class="searchform">
               <input type="text" placeholder="Поиск" class="inputbox" name="search" id="search" value="">
-                <label class="search-icon"></label>
+                <label class="search-icon">
+                </label>
             </form>
           </li>
         </ul>
@@ -115,8 +116,10 @@
       <span class="popular-title">Популярные товары:</span>
       <a href="#" class="red-button popular-items-ref">Все популярные товары</a>
     </div>
-    <div class="catalog-list">
-      <div class="catalog-item no-left-space">
+
+    <!---ПОПУЛЯРНЫE ТОВАРЫ----->
+    <ul class="catalog-list main-page-catalogue">
+      <li class="catalog-item">
         <div class="catalog-item-image catalog--item--image">
           <a href="catalog-item.html">
             <img src="img/perforator-bosch-4.jpg" alt="Перфоратор BOSCH" width="184" height="164" class="bosch-img">
@@ -142,8 +145,8 @@
         <a class="catalog-item-title" href="catalog-item.html">Перфоратор BOSCH BFG 9000</a>
         <span class="price-old">32500 Р.</span>
         <a class="price" href="#">25500 Р.</a>
-      </div>
-      <div class="catalog-item">
+      </li>
+      <li class="catalog-item">
         <div class="catalog-item-image">
           <a href="catalog-item.html">
             <img src="img/perforator-bosch-1.jpg" alt="Перфоратор BOSCH" width="127" height="112" class="bosch-img">
@@ -169,8 +172,8 @@
         <a class="catalog-item-title" href="catalog-item.html">Перфоратор BOSCH BFG 3000</a>
         <span class="price-old">22500 Р.</span>
         <a class="price" href="#">15500 Р.</a>
-      </div>
-      <div class="catalog-item">
+      </li>
+      <li class="catalog-item">
         <div class="catalog-item-image catalog-item--image">
           <a href="catalog-item.html">
             <img src="img/perforator-bosch-2.jpg" alt="Перфоратор BOSCH" width="144" height="128" class="bosch-img">
@@ -196,8 +199,8 @@
         <a class="catalog-item-title" href="catalog-item.html">Перфоратор BOSCH BFG 6000</a>
         <span class="price-old">30500 Р.</span>
         <a class="price" href="#">25500 Р.</a>
-      </div>
-      <div class="catalog-item catalog-item--new">
+      </li>
+      <li class="catalog-item catalog-item--new">
         <div class="catalog-item-image catalog-item---image">
           <a href="catalog-item.html">
             <img src="img/perforator-bosch-3.jpg" alt="Перфоратор BOSCH" width="127" height="112" class="bosch-img">
@@ -222,22 +225,33 @@
         </div>
         <a class="catalog-item-title catalog-item--title" href="catalog-item.html">Перфоратор BOSCH BFG 2000</a>
         <a class="price" href="#">12500 Р.</a>
-      </div>
-    </div>
+      </li>
+    </ul>
       <div class="popular-items popular-manufacturers">
         <span class="popular-title">Популярные производители:</span>
-        <a href="#" class="red-button popular-items-ref popular-manufacturers-ref">Все производители</a>
+        <a href="#" class="red-button popular-items-ref">Все производители</a>
       </div>
-      <ul class="popular-manufacturers-list">
-        <li class="popular-manufacturers-item"><img src="img/bosch.jpg" alt="Производитель Bosch" width="126" height="37"></li>
-        <li class="popular-manufacturers-item"><img src="img/makita.jpg" alt="Производитель Makita" width="123" height="40"></li>
-        <li class="popular-manufacturers-item"><img src="img/DeWALT.jpg" alt="Производитель DeWALT" width="146" height="44"></li>
-        <li class="popular-manufacturers-item"><img class="interskol-manufacturer-img" src="img/INTERSKOL.jpg" alt="Производитель Интерскол" width="200" height="88"></li>
-        <li class="popular-manufacturers-item"><img class="hitachi-manufacturer-img" src="img/Hitachi.jpg" alt="Производитель Hitachi" width="175" height="38"></li>
-        <li class="popular-manufacturers-item"><img src="img/LG.jpg" alt="Производитель LG" width="121" height="73"></li>
-        <li class="popular-manufacturers-item"><img src="img/AEG.jpg" alt="Производитель AEG" width="151" height="96"></li>
-        <li class="popular-manufacturers-item"><img class="metabo-manufacturer-img" src="img/Metabo.jpg" alt="Производитель Metabo" width="208" height="70"></li>
-      </ul>
+      <div class="popular-manufacturers-list">
+         <a class="popular-manufacturers-item" href="#"><img src="img/bosch.jpg" alt="Производитель Bosch" width="126" height="37"></a>
+         <a class="popular-manufacturers-item" href="#"><img src="img/makita.jpg" alt="Производитель Makita" width="123" height="40"></a>
+         <a class="popular-manufacturers-item" href="#"><img src="img/DeWALT.jpg" alt="Производитель DeWALT" width="146" height="44"></a>
+         <a class="popular-manufacturers-item" href="#"><img class="interskol-manufacturer-img" src="img/INTERSKOL.jpg" alt="Производитель Интерскол" width="200" height="88"></a>
+         <a class="popular-manufacturers-item" href="#"><img class="hitachi-manufacturer-img" src="img/Hitachi.jpg" alt="Производитель Hitachi" width="175" height="38"></a>
+         <a class="popular-manufacturers-item" href="#"><img src="img/LG.jpg" alt="Производитель LG" width="121" height="73"></a>
+          <a class="popular-manufacturers-item" href="#"><img src="img/AEG.jpg" alt="Производитель AEG" width="151" height="96"></a>
+          <a class="popular-manufacturers-item" href="#"><img class="metabo-manufacturer-img" src="img/Metabo.jpg" alt="Производитель Metabo" width="208" height="70"></a>
+      </div>
+    <!--    <a class="popular-manufacturers-item" href="#"><img src="img/bosch.jpg" alt="Производитель Bosch" width="126" height="37"></a>-->
+      <!--   <ul class="popular-manufacturers-list">
+        <li class="popular-manufacturers-item"><a href="#"><img src="img/bosch.jpg" alt="Производитель Bosch" width="126" height="37"></a></li>
+        <li class="popular-manufacturers-item"><a href="#"><img src="img/makita.jpg" alt="Производитель Makita" width="123" height="40"></a></li>
+        <li class="popular-manufacturers-item"><a href="#"><img src="img/DeWALT.jpg" alt="Производитель DeWALT" width="146" height="44"></a></li>
+        <li class="popular-manufacturers-item"><a href="#"><img class="interskol-manufacturer-img" src="img/INTERSKOL.jpg" alt="Производитель Интерскол" width="200" height="88"></a></li>
+        <li class="popular-manufacturers-item"><a href="#"><img class="hitachi-manufacturer-img" src="img/Hitachi.jpg" alt="Производитель Hitachi" width="175" height="38"></a></li>
+        <li class="popular-manufacturers-item"><a href="#"><img src="img/LG.jpg" alt="Производитель LG" width="121" height="73"></a></li>
+        <li class="popular-manufacturers-item"><a href="#"><img src="img/AEG.jpg" alt="Производитель AEG" width="151" height="96"></a></li>
+        <li class="popular-manufacturers-item"><a href="#"><img class="metabo-manufacturer-img" src="img/Metabo.jpg" alt="Производитель Metabo" width="208" height="70"></a></li>
+      </ul>-->
     </section>
     <section class="information">
       <div class="services-wrapper">
@@ -246,11 +260,16 @@
           <p class="services-desc">Хороший интернет-магазин отличается от плохого не только ценами!<br>
           Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
         <div class="all-services">
-          <ul class="services-list">
+        <!--   <ul class="services-list">
             <li class="services-item delivery-link services-active">Доставка</li>
             <li class="services-item guaranty-link services-not-active">Гарантия</li>
             <li class="services-item credit-link services-not-active">Кредит</li>
-          </ul>
+          </ul>-->
+         <div class="services-list">
+            <a class="services-item delivery-link services-active" href="#">Доставка</a>
+            <a class="services-item guaranty-link services-not-active" href="#">Гарантия</a>
+            <a class="services-item credit-link services-not-active" href="#">Кредит</a>
+          </div>
           <div class="delivery-services services-shown">
             <h3>Доставка</h3>
             <p class="delivery-text">Мы с удовольствием доставим ваш товар прямо
@@ -324,17 +343,17 @@
     </section>
     <section class="footer-bottom">
       <div class="footer-feedback container">
-        <span class="rights">© 2010–2017 Компания «Техномарт» Все права защищены
-        </span>
+        <p class="rights">© 2010–2017 Компания «Техномарт»<br>Все права защищены
+        </p>
           <ul class="footer-social-items">
             <li class="social-button">
-              <a class="social-button" href="#"><img src="img/vk-icon.png" height="15" width="26" alt="иконка вк"></a>
+              <a class="social-button" href="#"><img src="img/icon-vk.svg" height="15" width="26" alt="иконка вк"></a>
             </li>
             <li class="social-button">
-              <a class="social-button" href="#"><img src="img/fb-icon.png" height="22" width="12" alt="иконка фейсбук"></a>
+              <a class="social-button" href="#"><img src="img/icon-fb.svg" height="22" width="12" alt="иконка фейсбук"></a>
             </li>
             <li class="social-button">
-              <a class="social-button" href="#"><img src="img/insta-icon.png" height="21" width="21" alt="иконка инстаграмм"></a>
+              <a class="social-button" href="#"><img src="img/icon-insta.svg" height="21" width="21" alt="иконка инстаграмм"></a>
             </li>
           </ul>
         <ul class="footer-background">
