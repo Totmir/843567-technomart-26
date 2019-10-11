@@ -17,6 +17,7 @@ for (var j = 0; j < closeButtons.length; j++) {
     e.target.closest(".modal").classList.remove("modal-show");
   });
 }
+
 linkForm.addEventListener("click", function(e) {
   e.preventDefault();
   popupForm.classList.add("modal-show");
