@@ -707,9 +707,9 @@ fieldset {
 
 .filter-price input{
   display: inline-block;
+  text-align: center;
   vertical-align: middle;
   width: 95px;
-  text-align: center;
   padding: 9px 0 10px 4px;
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 17px;
@@ -1453,6 +1453,8 @@ label:hover {
   border: 2px solid white;
   background: white;
   cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
 }
 
 #btn-1:checked ~ .slider-controls label[for="btn-1"],
@@ -1728,6 +1730,11 @@ label:hover {
   margin-top: 80px;
   padding-top: 72px;
 }
+
+.services p {
+  max-width: 400px;
+}
+
 .all-services {
   display: -webkit-box;
   display: -ms-flexbox;
